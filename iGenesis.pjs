@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{289BBA7D-BEA5-42AC-BF53-C808C1959E91}">
+	<children>
+		<child name="iGenesis" key="{AE67ECFF-A090-4373-9DFD-AE28043F7F13}" path="iGenesis.mds" />
+	</children>
+	<testItems key="{26F00378-D325-42B6-8F59-3160B1F103EC}">
+		<children>
+			<testItem key="{AE67ECFF-A090-4373-9DFD-AE28043F7F13}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{777DB394-8A19-4FF8-BCC1-B88C2812929C}" />
+	<analysis key="{10C99253-3EEE-45F0-8D42-C1CD862EBD01}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

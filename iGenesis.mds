@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<child name="KeywordTests" key="{85664877-0FAC-412A-8E82-5D9AED069AEC}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="NameMapping" key="{55B2D898-B965-471B-9BAB-A30C59227E8B}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="TestedApps" key="{D93C9DCA-A652-4204-8D94-44DF90687017}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+	</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{92B1D8EE-C93A-4744-BD02-8F04C95CA22F}" version="14">
+		<children>
+			<testItem name="StartGenesis" key="{2E154DB1-943D-4163-B5AD-9A76CF3F9E29}" group="False" enabled="True" testMoniker="KDT\{50AEAFF1-8894-4A63-B82E-7DC64104AAC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Login" key="{F957A146-5210-4451-8CAF-3687128C9F5A}" group="False" enabled="True" testMoniker="KDT\{7CC327D2-621F-4803-8EFA-9C26099BC161}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters>
+					<param0 name="userID" type="1" localVarName="" value="ata" />
+					<param1 name="password" type="1" localVarName="" value="testPASS123!@#" />
+				</testParameters>
+				<children />
+			</testItem>
+			<testItem name="cGenesisDeleteMasterCoil" key="{79B3A776-830F-4821-BEE7-59FE0A53B846}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters>
+					<param0 name="psiInvID" type="1" localVarName="" value="638601000" />
+				</testParameters>
+				<children />
+			</testItem>
+			<testItem name="Receive &amp; Hold for Mechanicals" key="{3BB19905-27F9-41C3-807C-D187550C14F9}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ChangePlant" key="{A9004896-2945-4404-8892-8A47B71C5E20}" group="False" enabled="True" testMoniker="KDT\{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="Receive" key="{80ADD830-E442-4309-8B19-BA90D83E4462}" group="False" enabled="True" testMoniker="KDT\{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="fullAuto" type="2" localVarName="" value="False" />
+							<param1 name="isASN" type="2" localVarName="" value="True" />
+							<param2 name="psiInvID" type="1" localVarName="" value="638601000" />
+							<param3 name="psiInvIDToggle" type="2" localVarName="" value="False" />
+							<param4 name="ownerInvID" type="1" localVarName="" value="" />
+							<param5 name="ownerInvIDToggle" type="2" localVarName="" value="False" />
+							<param6 name="prevInvID" type="1" localVarName="" value="" />
+							<param7 name="prevInvIDToggle" type="2" localVarName="" value="False" />
+							<param8 name="heatLot" type="1" localVarName="" value="" />
+							<param9 name="heatLotToggle" type="2" localVarName="" value="False" />
+							<param10 name="metric" type="2" localVarName="" value="False" />
+							<param11 name="loadTally" type="1" localVarName="" value="" />
+							<param12 name="loadTallyToggle" type="2" localVarName="" value="False" />
+							<param13 name="scacCode" type="1" localVarName="" value="" />
+							<param14 name="scacCodeToggle" type="2" localVarName="" value="False" />
+							<param15 name="carrierName" type="1" localVarName="" value="" />
+							<param16 name="carrierNameToggle" type="2" localVarName="" value="False" />
+							<param17 name="vehicleID" type="1" localVarName="" value="" />
+							<param18 name="vehicleIDToggle" type="2" localVarName="" value="False" />
+							<param19 name="ownerID" type="1" localVarName="" value="" />
+							<param20 name="ownerIDToggle" type="2" localVarName="" value="False" />
+							<param21 name="ownerItem" type="1" localVarName="" value="" />
+							<param22 name="ownerItemToggle" type="2" localVarName="" value="False" />
+							<param23 name="userOrder" type="1" localVarName="" value="" />
+							<param24 name="userOrderToggle" type="2" localVarName="" value="False" />
+							<param25 name="millOrder" type="1" localVarName="" value="" />
+							<param26 name="millOrderToggle" type="2" localVarName="" value="False" />
+							<param27 name="orderDate" type="1" localVarName="" value="" />
+							<param28 name="orderDateToggle" type="2" localVarName="" value="False" />
+							<param29 name="partnerID" type="1" localVarName="" value="" />
+							<param30 name="partnerIDToggle" type="2" localVarName="" value="False" />
+							<param31 name="partnerName" type="1" localVarName="" value="" />
+							<param32 name="partnerNameToggle" type="2" localVarName="" value="False" />
+							<param33 name="millID" type="1" localVarName="" value="" />
+							<param34 name="millIDToggle" type="2" localVarName="" value="False" />
+							<param35 name="millName" type="1" localVarName="" value="" />
+							<param36 name="millNameToggle" type="2" localVarName="" value="False" />
+							<param37 name="gauge" type="1" localVarName="" value="" />
+							<param38 name="gaugeToggle" type="2" localVarName="" value="False" />
+							<param39 name="width" type="1" localVarName="" value="" />
+							<param40 name="widthToggle" type="2" localVarName="" value="False" />
+							<param41 name="metalType" type="1" localVarName="" value="" />
+							<param42 name="metalTypeToggle" type="2" localVarName="" value="False" />
+							<param43 name="netWeights" type="1" localVarName="" value="" />
+							<param44 name="netWeightsToggle" type="2" localVarName="" value="False" />
+							<param45 name="grossWeights" type="1" localVarName="" value="" />
+							<param46 name="grossWeightsToggle" type="2" localVarName="" value="False" />
+							<param47 name="scaleWeights" type="1" localVarName="" value="" />
+							<param48 name="scaleWeightsToggle" type="2" localVarName="" value="False" />
+							<param49 name="theoWeights" type="1" localVarName="" value="" />
+							<param50 name="theoWeightsToggle" type="2" localVarName="" value="False" />
+							<param51 name="linearFeet" type="1" localVarName="" value="" />
+							<param52 name="linearFeetToggle" type="2" localVarName="" value="False" />
+							<param53 name="measuredWidth" type="1" localVarName="" value="" />
+							<param54 name="measuredWidthToggle" type="2" localVarName="" value="False" />
+							<param55 name="avgGauge" type="1" localVarName="" value="" />
+							<param56 name="avgGaugeToggle" type="2" localVarName="" value="False" />
+							<param57 name="bornDate" type="1" localVarName="" value="" />
+							<param58 name="bornDateToggle" type="2" localVarName="" value="False" />
+							<param59 name="storage" type="1" localVarName="" value="" />
+							<param60 name="storageToggle" type="2" localVarName="" value="False" />
+							<param61 name="piece" type="1" localVarName="" value="" />
+							<param62 name="pieceToggle" type="2" localVarName="" value="False" />
+							<param63 name="id" type="1" localVarName="" value="" />
+							<param64 name="idToggle" type="2" localVarName="" value="False" />
+							<param65 name="miscData" type="1" localVarName="" value="" />
+							<param66 name="miscDataToggle" type="2" localVarName="" value="False" />
+							<param67 name="location" type="1" localVarName="" value="" />
+							<param68 name="locationToggle" type="2" localVarName="" value="False" />
+							<param69 name="holdReason" type="1" localVarName="" value="" />
+							<param70 name="holdReasonToggle" type="2" localVarName="" value="False" />
+							<param71 name="condition" type="1" localVarName="" value="" />
+							<param72 name="conditionToggle" type="2" localVarName="" value="False" />
+							<param73 name="packReqd" type="1" localVarName="" value="" />
+							<param74 name="packReqdToggle" type="2" localVarName="" value="False" />
+							<param75 name="rmaNO" type="1" localVarName="" value="" />
+							<param76 name="rmaNOToggle" type="2" localVarName="" value="False" />
+							<param77 name="comment" type="1" localVarName="" value="" />
+							<param78 name="commentToggle" type="2" localVarName="" value="False" />
+							<param79 name="refNum1" type="1" localVarName="" value="" />
+							<param80 name="refNum1Toggle" type="2" localVarName="" value="False" />
+							<param81 name="refNum2" type="1" localVarName="" value="" />
+							<param82 name="refNum2Toggle" type="2" localVarName="" value="False" />
+							<param83 name="refNum3" type="1" localVarName="" value="" />
+							<param84 name="refNum3Toggle" type="2" localVarName="" value="False" />
+							<param85 name="ownerOrder" type="1" localVarName="" value="" />
+							<param86 name="ownerOrderToggle" type="2" localVarName="" value="False" />
+							<param87 name="userItem" type="1" localVarName="" value="" />
+							<param88 name="userItemToggle" type="2" localVarName="" value="False" />
+							<param89 name="millItem" type="1" localVarName="" value="" />
+							<param90 name="millItemToggle" type="2" localVarName="" value="False" />
+							<param91 name="plCustomerPartNo" type="1" localVarName="" value="" />
+							<param92 name="plCustomerPartNoToggle" type="2" localVarName="" value="False" />
+							<param93 name="plant" type="1" localVarName="" value="" />
+							<param94 name="chemicalEntry" type="2" localVarName="" value="False" />
+							<param95 name="chemicalReset" type="2" localVarName="" value="False" />
+							<param96 name="chemLocation" type="1" localVarName="" value="" />
+							<param97 name="chemLocationToggle" type="2" localVarName="" value="False" />
+							<param98 name="isSteel" type="2" localVarName="" value="False" />
+							<param99 name="steelAluminumToggle" type="2" localVarName="" value="False" />
+							<param100 name="SI" type="1" localVarName="" value="" />
+							<param101 name="FE" type="1" localVarName="" value="" />
+							<param102 name="CU" type="1" localVarName="" value="" />
+							<param103 name="MN" type="1" localVarName="" value="" />
+							<param104 name="MG" type="1" localVarName="" value="" />
+							<param105 name="CR" type="1" localVarName="" value="" />
+							<param106 name="ZN" type="1" localVarName="" value="" />
+							<param107 name="TI" type="1" localVarName="" value="" />
+							<param108 name="ZR" type="1" localVarName="" value="" />
+							<param109 name="PB" type="1" localVarName="" value="" />
+							<param110 name="BI" type="1" localVarName="" value="" />
+							<param111 name="NI" type="1" localVarName="" value="" />
+							<param112 name="CA" type="1" localVarName="" value="" />
+							<param113 name="P" type="1" localVarName="" value="" />
+							<param114 name="S" type="1" localVarName="" value="" />
+							<param115 name="AS" type="1" localVarName="" value="" />
+							<param116 name="B" type="1" localVarName="" value="" />
+							<param117 name="C" type="1" localVarName="" value="" />
+							<param118 name="CB" type="1" localVarName="" value="" />
+							<param119 name="V" type="1" localVarName="" value="" />
+							<param120 name="CE" type="1" localVarName="" value="" />
+							<param121 name="Co" type="1" localVarName="" value="" />
+							<param122 name="GA" type="1" localVarName="" value="" />
+							<param123 name="GE" type="1" localVarName="" value="" />
+							<param124 name="H" type="1" localVarName="" value="" />
+							<param125 name="MO" type="1" localVarName="" value="" />
+							<param126 name="N" type="1" localVarName="" value="" />
+							<param127 name="NB" type="1" localVarName="" value="" />
+							<param128 name="O" type="1" localVarName="" value="" />
+							<param129 name="SB" type="1" localVarName="" value="" />
+							<param130 name="SE" type="1" localVarName="" value="" />
+							<param131 name="SN" type="1" localVarName="" value="" />
+							<param132 name="TA" type="1" localVarName="" value="" />
+							<param133 name="TE" type="1" localVarName="" value="" />
+							<param134 name="W" type="1" localVarName="" value="" />
+							<param135 name="Other" type="1" localVarName="" value="" />
+							<param136 name="LI" type="1" localVarName="" value="" />
+							<param137 name="AL" type="1" localVarName="" value="" />
+							<param138 name="SR" type="1" localVarName="" value="" />
+							<param139 name="BE" type="1" localVarName="" value="" />
+							<param140 name="IN" type="1" localVarName="" value="" />
+							<param141 name="NA" type="1" localVarName="" value="" />
+							<param142 name="ESI" type="1" localVarName="" value="" />
+							<param143 name="mechanicalEntry" type="2" localVarName="" value="True" />
+							<param144 name="note" type="1" localVarName="" value="" />
+							<param145 name="rValue" type="1" localVarName="" value="" />
+							<param146 name="nValue" type="1" localVarName="" value="" />
+							<param147 name="rockwellB1" type="1" localVarName="" value="" />
+							<param148 name="rockwellB2" type="1" localVarName="" value="" />
+							<param149 name="olsenDepth" type="1" localVarName="" value="" />
+							<param150 name="BHI" type="1" localVarName="" value="" />
+							<param151 name="yieldExact" type="1" localVarName="" value="" />
+							<param152 name="yieldMin" type="1" localVarName="" value="" />
+							<param153 name="yieldMax" type="1" localVarName="" value="" />
+							<param154 name="tensileExact" type="1" localVarName="" value="" />
+							<param155 name="tensileMin" type="1" localVarName="" value="" />
+							<param156 name="tensileMax" type="1" localVarName="" value="" />
+							<param157 name="elongExact" type="1" localVarName="" value="" />
+							<param158 name="elongMin" type="1" localVarName="" value="" />
+							<param159 name="elongMax" type="1" localVarName="" value="" />
+							<param160 name="topCladExact" type="1" localVarName="" value="" />
+							<param161 name="topCladMin" type="1" localVarName="" value="" />
+							<param162 name="topCladMax" type="1" localVarName="" value="" />
+							<param163 name="bottomCladExact" type="1" localVarName="" value="" />
+							<param164 name="bottomCladMin" type="1" localVarName="" value="" />
+							<param165 name="bottomCladMax" type="1" localVarName="" value="" />
+							<param166 name="topCoatE1" type="1" localVarName="" value="" />
+							<param167 name="topCoatE2" type="1" localVarName="" value="" />
+							<param168 name="topCoatC" type="1" localVarName="" value="" />
+							<param169 name="topCoatQ1" type="1" localVarName="" value="" />
+							<param170 name="topCoatQ2" type="1" localVarName="" value="" />
+							<param171 name="topCoatAvg" type="1" localVarName="" value="" />
+							<param172 name="bottomCoatE1" type="1" localVarName="" value="" />
+							<param173 name="bottomCoatE2" type="1" localVarName="" value="" />
+							<param174 name="bottomCoatC" type="1" localVarName="" value="" />
+							<param175 name="bottomCoatQ1" type="1" localVarName="" value="" />
+							<param176 name="bottomCoatQ2" type="1" localVarName="" value="" />
+							<param177 name="bottomCoatAVG" type="1" localVarName="" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="WarnHoldMechanicals" key="{E1B3E065-EDAC-4A17-90EA-A570AB7555DB}" group="False" enabled="True" testMoniker="KDT\{CA7E98B1-BFA4-488E-9D20-28ECA74ECE66}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="cChangePlant" key="{15AB7B7A-4B72-42A6-8674-A27A8F90759A}" group="False" enabled="False" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="cGenesisDeleteMasterCoil" key="{5B0002CE-755C-40FB-8E39-C80B701BEA12}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="psiInvID" type="1" localVarName="" value="638601000" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Receive &amp; Hold for Mechanicals &amp; Release" key="{610F5090-C724-463C-982C-BCED5B07184B}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ChangePlant" key="{55F96BB3-F77F-4BB3-9291-486B57D709DE}" group="False" enabled="False" testMoniker="KDT\{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="Receive" key="{ADD2A1E3-5A7C-4FB8-9C27-3C7C7D563A57}" group="False" enabled="True" testMoniker="KDT\{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="fullAuto" type="2" localVarName="" value="False" />
+							<param1 name="isASN" type="2" localVarName="" value="True" />
+							<param2 name="psiInvID" type="1" localVarName="" value="638601000" />
+							<param3 name="psiInvIDToggle" type="2" localVarName="" value="False" />
+							<param4 name="ownerInvID" type="1" localVarName="" value="" />
+							<param5 name="ownerInvIDToggle" type="2" localVarName="" value="False" />
+							<param6 name="prevInvID" type="1" localVarName="" value="" />
+							<param7 name="prevInvIDToggle" type="2" localVarName="" value="False" />
+							<param8 name="heatLot" type="1" localVarName="" value="" />
+							<param9 name="heatLotToggle" type="2" localVarName="" value="False" />
+							<param10 name="metric" type="2" localVarName="" value="False" />
+							<param11 name="loadTally" type="1" localVarName="" value="" />
+							<param12 name="loadTallyToggle" type="2" localVarName="" value="False" />
+							<param13 name="scacCode" type="1" localVarName="" value="" />
+							<param14 name="scacCodeToggle" type="2" localVarName="" value="False" />
+							<param15 name="carrierName" type="1" localVarName="" value="" />
+							<param16 name="carrierNameToggle" type="2" localVarName="" value="False" />
+							<param17 name="vehicleID" type="1" localVarName="" value="" />
+							<param18 name="vehicleIDToggle" type="2" localVarName="" value="False" />
+							<param19 name="ownerID" type="1" localVarName="" value="" />
+							<param20 name="ownerIDToggle" type="2" localVarName="" value="False" />
+							<param21 name="ownerItem" type="1" localVarName="" value="" />
+							<param22 name="ownerItemToggle" type="2" localVarName="" value="False" />
+							<param23 name="userOrder" type="1" localVarName="" value="" />
+							<param24 name="userOrderToggle" type="2" localVarName="" value="False" />
+							<param25 name="millOrder" type="1" localVarName="" value="" />
+							<param26 name="millOrderToggle" type="2" localVarName="" value="False" />
+							<param27 name="orderDate" type="1" localVarName="" value="" />
+							<param28 name="orderDateToggle" type="2" localVarName="" value="False" />
+							<param29 name="partnerID" type="1" localVarName="" value="" />
+							<param30 name="partnerIDToggle" type="2" localVarName="" value="False" />
+							<param31 name="partnerName" type="1" localVarName="" value="" />
+							<param32 name="partnerNameToggle" type="2" localVarName="" value="False" />
+							<param33 name="millID" type="1" localVarName="" value="" />
+							<param34 name="millIDToggle" type="2" localVarName="" value="False" />
+							<param35 name="millName" type="1" localVarName="" value="" />
+							<param36 name="millNameToggle" type="2" localVarName="" value="False" />
+							<param37 name="gauge" type="1" localVarName="" value="" />
+							<param38 name="gaugeToggle" type="2" localVarName="" value="False" />
+							<param39 name="width" type="1" localVarName="" value="" />
+							<param40 name="widthToggle" type="2" localVarName="" value="False" />
+							<param41 name="metalType" type="1" localVarName="" value="" />
+							<param42 name="metalTypeToggle" type="2" localVarName="" value="False" />
+							<param43 name="netWeights" type="1" localVarName="" value="" />
+							<param44 name="netWeightsToggle" type="2" localVarName="" value="False" />
+							<param45 name="grossWeights" type="1" localVarName="" value="" />
+							<param46 name="grossWeightsToggle" type="2" localVarName="" value="False" />
+							<param47 name="scaleWeights" type="1" localVarName="" value="" />
+							<param48 name="scaleWeightsToggle" type="2" localVarName="" value="False" />
+							<param49 name="theoWeights" type="1" localVarName="" value="" />
+							<param50 name="theoWeightsToggle" type="2" localVarName="" value="False" />
+							<param51 name="linearFeet" type="1" localVarName="" value="" />
+							<param52 name="linearFeetToggle" type="2" localVarName="" value="False" />
+							<param53 name="measuredWidth" type="1" localVarName="" value="" />
+							<param54 name="measuredWidthToggle" type="2" localVarName="" value="False" />
+							<param55 name="avgGauge" type="1" localVarName="" value="" />
+							<param56 name="avgGaugeToggle" type="2" localVarName="" value="False" />
+							<param57 name="bornDate" type="1" localVarName="" value="" />
+							<param58 name="bornDateToggle" type="2" localVarName="" value="False" />
+							<param59 name="storage" type="1" localVarName="" value="" />
+							<param60 name="storageToggle" type="2" localVarName="" value="False" />
+							<param61 name="piece" type="1" localVarName="" value="" />
+							<param62 name="pieceToggle" type="2" localVarName="" value="False" />
+							<param63 name="id" type="1" localVarName="" value="" />
+							<param64 name="idToggle" type="2" localVarName="" value="False" />
+							<param65 name="miscData" type="1" localVarName="" value="" />
+							<param66 name="miscDataToggle" type="2" localVarName="" value="False" />
+							<param67 name="location" type="1" localVarName="" value="" />
+							<param68 name="locationToggle" type="2" localVarName="" value="False" />
+							<param69 name="holdReason" type="1" localVarName="" value="" />
+							<param70 name="holdReasonToggle" type="2" localVarName="" value="False" />
+							<param71 name="condition" type="1" localVarName="" value="" />
+							<param72 name="conditionToggle" type="2" localVarName="" value="False" />
+							<param73 name="packReqd" type="1" localVarName="" value="" />
+							<param74 name="packReqdToggle" type="2" localVarName="" value="False" />
+							<param75 name="rmaNO" type="1" localVarName="" value="" />
+							<param76 name="rmaNOToggle" type="2" localVarName="" value="False" />
+							<param77 name="comment" type="1" localVarName="" value="" />
+							<param78 name="commentToggle" type="2" localVarName="" value="False" />
+							<param79 name="refNum1" type="1" localVarName="" value="" />
+							<param80 name="refNum1Toggle" type="2" localVarName="" value="False" />
+							<param81 name="refNum2" type="1" localVarName="" value="" />
+							<param82 name="refNum2Toggle" type="2" localVarName="" value="False" />
+							<param83 name="refNum3" type="1" localVarName="" value="" />
+							<param84 name="refNum3Toggle" type="2" localVarName="" value="False" />
+							<param85 name="ownerOrder" type="1" localVarName="" value="" />
+							<param86 name="ownerOrderToggle" type="2" localVarName="" value="False" />
+							<param87 name="userItem" type="1" localVarName="" value="" />
+							<param88 name="userItemToggle" type="2" localVarName="" value="False" />
+							<param89 name="millItem" type="1" localVarName="" value="" />
+							<param90 name="millItemToggle" type="2" localVarName="" value="False" />
+							<param91 name="plCustomerPartNo" type="1" localVarName="" value="" />
+							<param92 name="plCustomerPartNoToggle" type="2" localVarName="" value="False" />
+							<param93 name="plant" type="1" localVarName="" value="" />
+							<param94 name="chemicalEntry" type="2" localVarName="" value="False" />
+							<param95 name="chemicalReset" type="2" localVarName="" value="False" />
+							<param96 name="chemLocation" type="1" localVarName="" value="" />
+							<param97 name="chemLocationToggle" type="2" localVarName="" value="False" />
+							<param98 name="isSteel" type="2" localVarName="" value="False" />
+							<param99 name="steelAluminumToggle" type="2" localVarName="" value="False" />
+							<param100 name="SI" type="1" localVarName="" value="" />
+							<param101 name="FE" type="1" localVarName="" value="" />
+							<param102 name="CU" type="1" localVarName="" value="" />
+							<param103 name="MN" type="1" localVarName="" value="" />
+							<param104 name="MG" type="1" localVarName="" value="" />
+							<param105 name="CR" type="1" localVarName="" value="" />
+							<param106 name="ZN" type="1" localVarName="" value="" />
+							<param107 name="TI" type="1" localVarName="" value="" />
+							<param108 name="ZR" type="1" localVarName="" value="" />
+							<param109 name="PB" type="1" localVarName="" value="" />
+							<param110 name="BI" type="1" localVarName="" value="" />
+							<param111 name="NI" type="1" localVarName="" value="" />
+							<param112 name="CA" type="1" localVarName="" value="" />
+							<param113 name="P" type="1" localVarName="" value="" />
+							<param114 name="S" type="1" localVarName="" value="" />
+							<param115 name="AS" type="1" localVarName="" value="" />
+							<param116 name="B" type="1" localVarName="" value="" />
+							<param117 name="C" type="1" localVarName="" value="" />
+							<param118 name="CB" type="1" localVarName="" value="" />
+							<param119 name="V" type="1" localVarName="" value="" />
+							<param120 name="CE" type="1" localVarName="" value="" />
+							<param121 name="Co" type="1" localVarName="" value="" />
+							<param122 name="GA" type="1" localVarName="" value="" />
+							<param123 name="GE" type="1" localVarName="" value="" />
+							<param124 name="H" type="1" localVarName="" value="" />
+							<param125 name="MO" type="1" localVarName="" value="" />
+							<param126 name="N" type="1" localVarName="" value="" />
+							<param127 name="NB" type="1" localVarName="" value="" />
+							<param128 name="O" type="1" localVarName="" value="" />
+							<param129 name="SB" type="1" localVarName="" value="" />
+							<param130 name="SE" type="1" localVarName="" value="" />
+							<param131 name="SN" type="1" localVarName="" value="" />
+							<param132 name="TA" type="1" localVarName="" value="" />
+							<param133 name="TE" type="1" localVarName="" value="" />
+							<param134 name="W" type="1" localVarName="" value="" />
+							<param135 name="Other" type="1" localVarName="" value="" />
+							<param136 name="LI" type="1" localVarName="" value="" />
+							<param137 name="AL" type="1" localVarName="" value="" />
+							<param138 name="SR" type="1" localVarName="" value="" />
+							<param139 name="BE" type="1" localVarName="" value="" />
+							<param140 name="IN" type="1" localVarName="" value="" />
+							<param141 name="NA" type="1" localVarName="" value="" />
+							<param142 name="ESI" type="1" localVarName="" value="" />
+							<param143 name="mechanicalEntry" type="2" localVarName="" value="True" />
+							<param144 name="note" type="1" localVarName="" value="" />
+							<param145 name="rValue" type="1" localVarName="" value="" />
+							<param146 name="nValue" type="1" localVarName="" value="" />
+							<param147 name="rockwellB1" type="1" localVarName="" value="" />
+							<param148 name="rockwellB2" type="1" localVarName="" value="" />
+							<param149 name="olsenDepth" type="1" localVarName="" value="" />
+							<param150 name="BHI" type="1" localVarName="" value="" />
+							<param151 name="yieldExact" type="1" localVarName="" value="" />
+							<param152 name="yieldMin" type="1" localVarName="" value="" />
+							<param153 name="yieldMax" type="1" localVarName="" value="" />
+							<param154 name="tensileExact" type="1" localVarName="" value="" />
+							<param155 name="tensileMin" type="1" localVarName="" value="" />
+							<param156 name="tensileMax" type="1" localVarName="" value="" />
+							<param157 name="elongExact" type="1" localVarName="" value="" />
+							<param158 name="elongMin" type="1" localVarName="" value="" />
+							<param159 name="elongMax" type="1" localVarName="" value="" />
+							<param160 name="topCladExact" type="1" localVarName="" value="" />
+							<param161 name="topCladMin" type="1" localVarName="" value="" />
+							<param162 name="topCladMax" type="1" localVarName="" value="" />
+							<param163 name="bottomCladExact" type="1" localVarName="" value="" />
+							<param164 name="bottomCladMin" type="1" localVarName="" value="" />
+							<param165 name="bottomCladMax" type="1" localVarName="" value="" />
+							<param166 name="topCoatE1" type="1" localVarName="" value="" />
+							<param167 name="topCoatE2" type="1" localVarName="" value="" />
+							<param168 name="topCoatC" type="1" localVarName="" value="" />
+							<param169 name="topCoatQ1" type="1" localVarName="" value="" />
+							<param170 name="topCoatQ2" type="1" localVarName="" value="" />
+							<param171 name="topCoatAvg" type="1" localVarName="" value="" />
+							<param172 name="bottomCoatE1" type="1" localVarName="" value="" />
+							<param173 name="bottomCoatE2" type="1" localVarName="" value="" />
+							<param174 name="bottomCoatC" type="1" localVarName="" value="" />
+							<param175 name="bottomCoatQ1" type="1" localVarName="" value="" />
+							<param176 name="bottomCoatQ2" type="1" localVarName="" value="" />
+							<param177 name="bottomCoatAVG" type="1" localVarName="" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="WarnHoldMechanicals" key="{B764970F-351E-4C75-9594-D6CDAE778FD6}" group="False" enabled="True" testMoniker="KDT\{CA7E98B1-BFA4-488E-9D20-28ECA74ECE66}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Release" key="{76961FF8-F785-4EAC-931E-F420095811B3}" group="False" enabled="True" testMoniker="KDT\{789AB65A-60DC-4FBF-9951-C45DC0F53EA3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="releaseNote" type="1" localVarName="" value="This is a test release comment." />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="cChangePlant" key="{4B11EC7D-015B-46F1-973E-82C05FB95244}" group="False" enabled="True" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="cGenesisDeleteMasterCoil" key="{539380E1-3206-4E2A-9B32-AFF2597B3B17}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="psiInvID" type="1" localVarName="" value="638601000" />
+						</testParameters>
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Receive Error - SCAC Code" key="{66955E38-4615-4A2B-A86D-FD0AD13D3E80}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ChangePlant" key="{FE28CF64-BBFF-4555-A365-0416A4C3D9D7}" group="False" enabled="True" testMoniker="KDT\{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Kenton" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="Receive" key="{AC941283-2CD8-4736-84BB-0EB8FEBA8DB9}" group="False" enabled="True" testMoniker="KDT\{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="fullAuto" type="2" localVarName="" value="False" />
+							<param1 name="isASN" type="2" localVarName="" value="True" />
+							<param2 name="psiInvID" type="1" localVarName="" value="210730600" />
+							<param3 name="psiInvIDToggle" type="2" localVarName="" value="False" />
+							<param4 name="ownerInvID" type="1" localVarName="" value="" />
+							<param5 name="ownerInvIDToggle" type="2" localVarName="" value="False" />
+							<param6 name="prevInvID" type="1" localVarName="" value="" />
+							<param7 name="prevInvIDToggle" type="2" localVarName="" value="False" />
+							<param8 name="heatLot" type="1" localVarName="" value="" />
+							<param9 name="heatLotToggle" type="2" localVarName="" value="False" />
+							<param10 name="metric" type="2" localVarName="" value="False" />
+							<param11 name="loadTally" type="1" localVarName="" value="" />
+							<param12 name="loadTallyToggle" type="2" localVarName="" value="False" />
+							<param13 name="scacCode" type="1" localVarName="" value="" />
+							<param14 name="scacCodeToggle" type="2" localVarName="" value="False" />
+							<param15 name="carrierName" type="1" localVarName="" value="" />
+							<param16 name="carrierNameToggle" type="2" localVarName="" value="False" />
+							<param17 name="vehicleID" type="1" localVarName="" value="" />
+							<param18 name="vehicleIDToggle" type="2" localVarName="" value="False" />
+							<param19 name="ownerID" type="1" localVarName="" value="" />
+							<param20 name="ownerIDToggle" type="2" localVarName="" value="False" />
+							<param21 name="ownerItem" type="1" localVarName="" value="" />
+							<param22 name="ownerItemToggle" type="2" localVarName="" value="False" />
+							<param23 name="userOrder" type="1" localVarName="" value="" />
+							<param24 name="userOrderToggle" type="2" localVarName="" value="False" />
+							<param25 name="millOrder" type="1" localVarName="" value="" />
+							<param26 name="millOrderToggle" type="2" localVarName="" value="False" />
+							<param27 name="orderDate" type="1" localVarName="" value="" />
+							<param28 name="orderDateToggle" type="2" localVarName="" value="False" />
+							<param29 name="partnerID" type="1" localVarName="" value="" />
+							<param30 name="partnerIDToggle" type="2" localVarName="" value="False" />
+							<param31 name="partnerName" type="1" localVarName="" value="" />
+							<param32 name="partnerNameToggle" type="2" localVarName="" value="False" />
+							<param33 name="millID" type="1" localVarName="" value="" />
+							<param34 name="millIDToggle" type="2" localVarName="" value="False" />
+							<param35 name="millName" type="1" localVarName="" value="" />
+							<param36 name="millNameToggle" type="2" localVarName="" value="False" />
+							<param37 name="gauge" type="1" localVarName="" value="" />
+							<param38 name="gaugeToggle" type="2" localVarName="" value="False" />
+							<param39 name="width" type="1" localVarName="" value="" />
+							<param40 name="widthToggle" type="2" localVarName="" value="False" />
+							<param41 name="metalType" type="1" localVarName="" value="" />
+							<param42 name="metalTypeToggle" type="2" localVarName="" value="False" />
+							<param43 name="netWeights" type="1" localVarName="" value="" />
+							<param44 name="netWeightsToggle" type="2" localVarName="" value="False" />
+							<param45 name="grossWeights" type="1" localVarName="" value="" />
+							<param46 name="grossWeightsToggle" type="2" localVarName="" value="False" />
+							<param47 name="scaleWeights" type="1" localVarName="" value="" />
+							<param48 name="scaleWeightsToggle" type="2" localVarName="" value="False" />
+							<param49 name="theoWeights" type="1" localVarName="" value="" />
+							<param50 name="theoWeightsToggle" type="2" localVarName="" value="False" />
+							<param51 name="linearFeet" type="1" localVarName="" value="" />
+							<param52 name="linearFeetToggle" type="2" localVarName="" value="False" />
+							<param53 name="measuredWidth" type="1" localVarName="" value="" />
+							<param54 name="measuredWidthToggle" type="2" localVarName="" value="False" />
+							<param55 name="avgGauge" type="1" localVarName="" value="" />
+							<param56 name="avgGaugeToggle" type="2" localVarName="" value="False" />
+							<param57 name="bornDate" type="1" localVarName="" value="" />
+							<param58 name="bornDateToggle" type="2" localVarName="" value="False" />
+							<param59 name="storage" type="1" localVarName="" value="" />
+							<param60 name="storageToggle" type="2" localVarName="" value="False" />
+							<param61 name="piece" type="1" localVarName="" value="" />
+							<param62 name="pieceToggle" type="2" localVarName="" value="False" />
+							<param63 name="id" type="1" localVarName="" value="" />
+							<param64 name="idToggle" type="2" localVarName="" value="False" />
+							<param65 name="miscData" type="1" localVarName="" value="" />
+							<param66 name="miscDataToggle" type="2" localVarName="" value="False" />
+							<param67 name="location" type="1" localVarName="" value="" />
+							<param68 name="locationToggle" type="2" localVarName="" value="False" />
+							<param69 name="holdReason" type="1" localVarName="" value="" />
+							<param70 name="holdReasonToggle" type="2" localVarName="" value="False" />
+							<param71 name="condition" type="1" localVarName="" value="" />
+							<param72 name="conditionToggle" type="2" localVarName="" value="False" />
+							<param73 name="packReqd" type="1" localVarName="" value="" />
+							<param74 name="packReqdToggle" type="2" localVarName="" value="False" />
+							<param75 name="rmaNO" type="1" localVarName="" value="" />
+							<param76 name="rmaNOToggle" type="2" localVarName="" value="False" />
+							<param77 name="comment" type="1" localVarName="" value="" />
+							<param78 name="commentToggle" type="2" localVarName="" value="False" />
+							<param79 name="refNum1" type="1" localVarName="" value="" />
+							<param80 name="refNum1Toggle" type="2" localVarName="" value="False" />
+							<param81 name="refNum2" type="1" localVarName="" value="" />
+							<param82 name="refNum2Toggle" type="2" localVarName="" value="False" />
+							<param83 name="refNum3" type="1" localVarName="" value="" />
+							<param84 name="refNum3Toggle" type="2" localVarName="" value="False" />
+							<param85 name="ownerOrder" type="1" localVarName="" value="" />
+							<param86 name="ownerOrderToggle" type="2" localVarName="" value="False" />
+							<param87 name="userItem" type="1" localVarName="" value="" />
+							<param88 name="userItemToggle" type="2" localVarName="" value="False" />
+							<param89 name="millItem" type="1" localVarName="" value="" />
+							<param90 name="millItemToggle" type="2" localVarName="" value="False" />
+							<param91 name="plCustomerPartNo" type="1" localVarName="" value="" />
+							<param92 name="plCustomerPartNoToggle" type="2" localVarName="" value="False" />
+							<param93 name="plant" type="1" localVarName="" value="" />
+							<param94 name="chemicalEntry" type="2" localVarName="" value="False" />
+							<param95 name="chemicalReset" type="2" localVarName="" value="False" />
+							<param96 name="chemLocation" type="1" localVarName="" value="" />
+							<param97 name="chemLocationToggle" type="2" localVarName="" value="False" />
+							<param98 name="isSteel" type="2" localVarName="" value="False" />
+							<param99 name="steelAluminumToggle" type="2" localVarName="" value="False" />
+							<param100 name="SI" type="1" localVarName="" value="" />
+							<param101 name="FE" type="1" localVarName="" value="" />
+							<param102 name="CU" type="1" localVarName="" value="" />
+							<param103 name="MN" type="1" localVarName="" value="" />
+							<param104 name="MG" type="1" localVarName="" value="" />
+							<param105 name="CR" type="1" localVarName="" value="" />
+							<param106 name="ZN" type="1" localVarName="" value="" />
+							<param107 name="TI" type="1" localVarName="" value="" />
+							<param108 name="ZR" type="1" localVarName="" value="" />
+							<param109 name="PB" type="1" localVarName="" value="" />
+							<param110 name="BI" type="1" localVarName="" value="" />
+							<param111 name="NI" type="1" localVarName="" value="" />
+							<param112 name="CA" type="1" localVarName="" value="" />
+							<param113 name="P" type="1" localVarName="" value="" />
+							<param114 name="S" type="1" localVarName="" value="" />
+							<param115 name="AS" type="1" localVarName="" value="" />
+							<param116 name="B" type="1" localVarName="" value="" />
+							<param117 name="C" type="1" localVarName="" value="" />
+							<param118 name="CB" type="1" localVarName="" value="" />
+							<param119 name="V" type="1" localVarName="" value="" />
+							<param120 name="CE" type="1" localVarName="" value="" />
+							<param121 name="Co" type="1" localVarName="" value="" />
+							<param122 name="GA" type="1" localVarName="" value="" />
+							<param123 name="GE" type="1" localVarName="" value="" />
+							<param124 name="H" type="1" localVarName="" value="" />
+							<param125 name="MO" type="1" localVarName="" value="" />
+							<param126 name="N" type="1" localVarName="" value="" />
+							<param127 name="NB" type="1" localVarName="" value="" />
+							<param128 name="O" type="1" localVarName="" value="" />
+							<param129 name="SB" type="1" localVarName="" value="" />
+							<param130 name="SE" type="1" localVarName="" value="" />
+							<param131 name="SN" type="1" localVarName="" value="" />
+							<param132 name="TA" type="1" localVarName="" value="" />
+							<param133 name="TE" type="1" localVarName="" value="" />
+							<param134 name="W" type="1" localVarName="" value="" />
+							<param135 name="Other" type="1" localVarName="" value="" />
+							<param136 name="LI" type="1" localVarName="" value="" />
+							<param137 name="AL" type="1" localVarName="" value="" />
+							<param138 name="SR" type="1" localVarName="" value="" />
+							<param139 name="BE" type="1" localVarName="" value="" />
+							<param140 name="IN" type="1" localVarName="" value="" />
+							<param141 name="NA" type="1" localVarName="" value="" />
+							<param142 name="ESI" type="1" localVarName="" value="" />
+							<param143 name="mechanicalEntry" type="2" localVarName="" value="False" />
+							<param144 name="note" type="1" localVarName="" value="" />
+							<param145 name="rValue" type="1" localVarName="" value="" />
+							<param146 name="nValue" type="1" localVarName="" value="" />
+							<param147 name="rockwellB1" type="1" localVarName="" value="" />
+							<param148 name="rockwellB2" type="1" localVarName="" value="" />
+							<param149 name="olsenDepth" type="1" localVarName="" value="" />
+							<param150 name="BHI" type="1" localVarName="" value="" />
+							<param151 name="yieldExact" type="1" localVarName="" value="" />
+							<param152 name="yieldMin" type="1" localVarName="" value="" />
+							<param153 name="yieldMax" type="1" localVarName="" value="" />
+							<param154 name="tensileExact" type="1" localVarName="" value="" />
+							<param155 name="tensileMin" type="1" localVarName="" value="" />
+							<param156 name="tensileMax" type="1" localVarName="" value="" />
+							<param157 name="elongExact" type="1" localVarName="" value="" />
+							<param158 name="elongMin" type="1" localVarName="" value="" />
+							<param159 name="elongMax" type="1" localVarName="" value="" />
+							<param160 name="topCladExact" type="1" localVarName="" value="" />
+							<param161 name="topCladMin" type="1" localVarName="" value="" />
+							<param162 name="topCladMax" type="1" localVarName="" value="" />
+							<param163 name="bottomCladExact" type="1" localVarName="" value="" />
+							<param164 name="bottomCladMin" type="1" localVarName="" value="" />
+							<param165 name="bottomCladMax" type="1" localVarName="" value="" />
+							<param166 name="topCoatE1" type="1" localVarName="" value="" />
+							<param167 name="topCoatE2" type="1" localVarName="" value="" />
+							<param168 name="topCoatC" type="1" localVarName="" value="" />
+							<param169 name="topCoatQ1" type="1" localVarName="" value="" />
+							<param170 name="topCoatQ2" type="1" localVarName="" value="" />
+							<param171 name="topCoatAvg" type="1" localVarName="" value="" />
+							<param172 name="bottomCoatE1" type="1" localVarName="" value="" />
+							<param173 name="bottomCoatE2" type="1" localVarName="" value="" />
+							<param174 name="bottomCoatC" type="1" localVarName="" value="" />
+							<param175 name="bottomCoatQ1" type="1" localVarName="" value="" />
+							<param176 name="bottomCoatQ2" type="1" localVarName="" value="" />
+							<param177 name="bottomCoatAVG" type="1" localVarName="" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="ErrorSCACCode" key="{4DA51449-962D-4C23-A9D7-BB3A005A05C1}" group="False" enabled="True" testMoniker="KDT\{7C1F0F44-A785-43AF-8513-DB0B50048A53}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{5FF23EF8-D6CC-49B7-808B-9DE9D0726193}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003000460034004400380041004200460034004500430039003800430037004600310038003000390039004300370039003700420032004200380039003200370030003400430030003200440038003000430041003200310042003100440043003000460034003000440036003800430036003300330037004500350039003500310032004100" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{D52D0DC1-728D-4BE4-838A-B272D8F39110}">
+		<settingsVersion value="14.70" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="13" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeFirefoxObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+				<row val0="True" val1="formcontrolname" />
+				<row val0="True" val1="psi-lookup-input" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="33" colIndex="4">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="1" />
+				<row val0="32" val1="0" val2="False" val3="True" val4="PSI lookup input for iGenesis" val5="RegExp" val6="^{[^0-9_\-:]+}-{[^0-9_\-:]+}-{[^0-9_\-:]+}$" val7="$1-$2-$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="False" />
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 5/SE" />
+				<row val0="iPhone 6/7/8" />
+				<row val0="iPhone 6/7/8 Plus" />
+				<row val0="Apple iPhone X" />
+				<row val0="Google Pixel 2" />
+				<row val0="Samsung Galaxy Note 9" />
+				<row val0="Samsung Galaxy S9" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="7" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone 5/SE" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone X" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="375" val8="812" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Google Pixel 2" val6="Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36" val7="411" val8="731" val9="2.625" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="414" val8="846" val9="3.5" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy S9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="360" val8="740" val9="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="2500" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="100" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{420F8CE3-07D4-45F8-9C30-0AD247FFF90F}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{31B4EAE4-E4C8-489C-B1E7-32D6025FCF99}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{FDA0DBED-4FD8-48BD-94D2-693D7EF69155}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{76761FCE-AC47-4339-AA84-9FA7CCA49CE4}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

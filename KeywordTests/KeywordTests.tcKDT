@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Util">
+			<folder name="Navigation">
+				<child name="PageToHome" key="{4CC41C64-E9C0-4AF8-8C78-AA1066808A8C}" path="util\PageToHome.tcKDTest" />
+				<child name="PageTo" key="{0A18C01E-BA2F-46AD-8C67-D65BB07D885F}" path="util\Navigation\PageTo.tcKDTest" />
+				<child name="ChangePlant" key="{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" path="util\Navigation\ChangePlant.tcKDTest" />
+			</folder>
+			<child name="StartGenesis" key="{50AEAFF1-8894-4A63-B82E-7DC64104AAC4}" path="util\StartGenesis.tcKDTest" />
+			<child name="Login" key="{7CC327D2-621F-4803-8EFA-9C26099BC161}" path="util\Login.tcKDTest" />
+			<child name="Reset" key="{2D2717CE-05EB-49AD-A222-37B47F86B230}" path="util\Reset.tcKDTest" />
+		</folder>
+		<folder name="cGenesis">
+			<folder name="Inventory">
+				<child name="cGenesisDeleteMasterCoil" key="{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" path="cGenesis\cGenesisDeleteMasterCoil.tcKDTest" />
+			</folder>
+			<folder name="Util">
+				<child name="cChangePlant" key="{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" path="util\cChangePlant.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Receiving">
+			<folder name="Checkpoints">
+				<child name="WarnHoldMechanicals" key="{CA7E98B1-BFA4-488E-9D20-28ECA74ECE66}" path="Receiving\Checkpoints\WarnHoldMechanicals.tcKDTest" />
+				<child name="ErrorSCACCode" key="{7C1F0F44-A785-43AF-8513-DB0B50048A53}" path="Receiving\Checkpoints\ErrorSCACCode.tcKDTest" />
+				<child name="CheckHoldCode" key="{FDB5C9B1-CBF6-4C65-933C-C43BE979344D}" path="Receiving\Checkpoints\CheckHoldCode.tcKDTest" />
+			</folder>
+			<child name="Receive" key="{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" path="Receiving\Receive.tcKDTest" />
+			<child name="InventoryNote" key="{58664570-22CF-45B6-9394-4DE4AAB73650}" path="Receiving\InventoryNote.tcKDTest" />
+			<child name="HoldNote" key="{23F6220C-FF8B-4FE1-A70A-1696DC804F92}" path="Receiving\HoldNote.tcKDTest" />
+			<child name="Release" key="{789AB65A-60DC-4FBF-9951-C45DC0F53EA3}" path="Receiving\Release.tcKDTest" />
+		</folder>
+	</children>
+</Root>

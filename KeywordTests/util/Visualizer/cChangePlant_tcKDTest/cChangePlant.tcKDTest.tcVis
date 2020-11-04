@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B470FBD7-B15C-403E-8D4F-9205EEC21F95}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44132.5441203704" objectName="Aliases.cGenesis.wndProMainWin" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi7478989681034042.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44132.5441898148" objectName="Aliases.cGenesis.wndProFrame.ComboBox" objectLeft="93" objectTop="46" objectRight="218" objectBottom="67" clickPointX="-417" clickPointY="-143" imageFileName="tcvi7479050151034047.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44132.5441898148" objectName="Aliases.cGenesis.wndProFrame.btnOK" objectLeft="78" objectTop="101" objectRight="148" objectBottom="125" clickPointX="123" clickPointY="114" imageFileName="tcvi7479057031034048.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
