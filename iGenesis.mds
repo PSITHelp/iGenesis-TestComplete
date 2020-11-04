@@ -8,7 +8,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{92B1D8EE-C93A-4744-BD02-8F04C95CA22F}" version="14">
 		<children>
-			<testItem name="StartGenesis" key="{2E154DB1-943D-4163-B5AD-9A76CF3F9E29}" group="False" enabled="True" testMoniker="KDT\{50AEAFF1-8894-4A63-B82E-7DC64104AAC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="StartGenesis" key="{2E154DB1-943D-4163-B5AD-9A76CF3F9E29}" group="False" enabled="False" testMoniker="KDT\{50AEAFF1-8894-4A63-B82E-7DC64104AAC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>
@@ -652,7 +652,13 @@
 			<testItem name="Receive &amp; Hold for Chemicals" key="{57C2D0ED-8DA4-41E6-ACA5-3E35DD34D6CF}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Receive_2" key="{BE07297E-873B-4F36-9070-552BE4F86900}" group="False" enabled="True" testMoniker="KDT\{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="cGenesisDeleteMasterCoil" key="{B98D3299-C933-4BD5-BBED-3E0370E0768E}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="psiInvID" type="1" localVarName="" value="638599700" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="Receive" key="{BE07297E-873B-4F36-9070-552BE4F86900}" group="False" enabled="True" testMoniker="KDT\{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="fullAuto" type="2" localVarName="" value="False" />
 							<param1 name="isASN" type="2" localVarName="" value="True" />
@@ -832,6 +838,18 @@
 							<param175 name="bottomCoatQ1" type="1" localVarName="" value="" />
 							<param176 name="bottomCoatQ2" type="1" localVarName="" value="" />
 							<param177 name="bottomCoatAVG" type="1" localVarName="" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="CheckHoldCode" key="{688E4C6F-B821-4D9B-B221-DAD507BF2056}" group="False" enabled="True" testMoniker="KDT\{FDB5C9B1-CBF6-4C65-933C-C43BE979344D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="holdCode" type="1" localVarName="" value="Failed Chem Properties" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="cGenesisDeleteMasterCoil" key="{B6E6A677-6633-4871-95B6-941721D15ED3}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="psiInvID" type="1" localVarName="" value="638599700" />
 						</testParameters>
 						<children />
 					</testItem>
