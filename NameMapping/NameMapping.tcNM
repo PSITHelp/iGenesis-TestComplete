@@ -26,7 +26,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://testpkg.precision-strip.com:8870/igenesis/login" />
+										<Value Value="http://testpkg:8880/igenesis/login" />
 									</Property>
 								</Properties>
 								<Children>
@@ -66,7 +66,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://testpkg.precision-strip.com:8870/igenesis/*" />
+										<Value Value="http://testpkg:8880/igenesis*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -909,7 +909,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://testpkg.precision-strip.com:8870/igenesis/receiving*" />
+										<Value Value="http://testpkg:8880/igenesis/receiving*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4036,7 +4036,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://testpkg.precision-strip.com:8870/igenesis/maintenance*" />
+										<Value Value="http://testpkg:8880/igenesis/maintenance*" />
 									</Property>
 								</Properties>
 							</Child>
@@ -4046,7 +4046,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://testpkg.precision-strip.com:8870/igenesis/maintenance/parts" />
+										<Value Value="http://testpkg:8880/igenesis/maintenance/parts" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5289,7 +5289,7 @@
 					<Child Name="cGenesis" Key="{1C352C21-EEA5-4FD3-8EBC-A086F65172B4}">
 						<Properties>
 							<Property Name="ProcessName">
-								<Value Value="prowin32" />
+								<Value Value="prowc" />
 							</Property>
 						</Properties>
 						<Children>
