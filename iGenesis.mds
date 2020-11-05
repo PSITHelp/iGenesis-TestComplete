@@ -652,6 +652,12 @@
 			<testItem name="Receive &amp; Hold for Chemicals" key="{57C2D0ED-8DA4-41E6-ACA5-3E35DD34D6CF}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="cChangePlant" key="{65EDC5A1-6AFD-4306-B5C4-F67A107BFF01}" group="False" enabled="True" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
+						</testParameters>
+						<children />
+					</testItem>
 					<testItem name="cGenesisDeleteMasterCoil" key="{B98D3299-C933-4BD5-BBED-3E0370E0768E}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="psiInvID" type="1" localVarName="" value="638599700" />
