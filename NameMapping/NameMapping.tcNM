@@ -901,6 +901,29 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="BrowserConfirm" Key="{ABCA5252-DEFD-4042-B43E-753AD4FBEF3A}">
+										<Image FileName="30866592" Left="680" Top="85" Right="1258" Bottom="441" />
+										<TypeInfo Item0="{7971B582-B944-4AE5-AB22-78ACF88B05A3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Confirm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonCancel" Key="{FC5C4537-7BD1-4D7C-9216-3706124D4A00}">
+												<Image FileName="30866592" Left="1144" Top="369" Right="1229" Bottom="409" />
+												<TypeInfo Item0="{E4EEF623-7035-42BB-BC07-F858C0C334D1}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Cancel" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="Receiving" Key="{6C9ECFAB-16FE-4F73-94CE-57788CF51B45}" Description="Receiving page. Contains elements in the Receiving Material page.">
@@ -3826,6 +3849,68 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="panel2" Key="{B0A3E319-59B0-4122-8464-577E8518D251}" ExtendedFind="True">
+												<Image FileName="41026866" Left="210" Top="395" Right="1406" Bottom="770" />
+												<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{13FB84B2-0D2A-4BE8-B26D-1403000BD481}">
+														<Image FileName="41026866" Left="226" Top="395" Right="905" Bottom="770" />
+														<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{D6F792CE-6703-47E5-9F4C-3F5CCC6302D5}">
+																<Image FileName="41026866" Left="228" Top="396" Right="904" Bottom="769" />
+																<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{693DE5BE-E49A-42A6-9CD7-C69E97C423D0}">
+																		<Image FileName="41026866" Left="228" Top="396" Right="453" Bottom="769" />
+																		<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{9B83CDF5-1DFB-4160-8561-D4B8E566E41A}">
+																				<Image FileName="41026866" Left="228" Top="396" Right="452" Bottom="769" />
+																				<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="50006100720074002000490064000A0031003600300030003600300038000A004D006500740061006C00200074007900700065003A0020004800460053003400330036004C000A00500061007200740020004E006F003A0020003200300031003900300030003800390036000A004D00530041003A0020003200300031003900300030003800390036000A00470061007500670065003A00200030002E0030003200320038000A00570069006400740068003A002000350030000A004C0065006E006700740068003A00200030000A004C0065006E0067007400680032003A00200030000A0050006100720074002000490064000A0031003500380038003500380034000A004D006500740061006C00200074007900700065003A00200053007400610069006E006C0065007300730020003400330036004C0020002300320044002000660069006E000A00500061007200740020004E006F003A0020003200300031003900300030003800390036000A004D00530041003A0020003200300031003900300030003800390036000A00470061007500670065003A00200030002E0030003200320038000A00570069006400740068003A002000350030000A004C0065006E006700740068003A00200030000A004C0065006E0067007400680032003A0020003000" Type="7" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="buttonAutoReceivePartnerPartFind" Key="{523D7C6D-3C84-41D5-9EFA-FF9F63EC7EBE}" ExtendedFind="True">
@@ -4014,6 +4099,93 @@
 														<Value Value="Release" />
 													</Property>
 												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="PartnerPartFinder" Key="{6CEF3169-31E9-4668-B93C-4B9C861756BD}" Description="Partner finder" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Partner &amp; Part Finder (Auto Receive)*" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="PartnerPartFinderResults" Key="{26265BAA-B6ED-452C-9AB7-388A77E6507E}" Description="Partner finder" ExtendedFind="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="multipleParts" Key="{82C089BE-CD1A-4E11-9840-ED7F34B20164}" Description="Partner finder" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Multiple parts located*" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="resultList" Key="{CE316F2B-ED1D-4C01-9F73-D1B63E03CA5A}" Description="Partner finder" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="result" Key="{F6099B76-D494-4B43-B892-C0D722E4F8EE}" Description="Partner finder" ExtendedFind="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="index" Key="{7C164023-C19C-485D-B4A7-C0D24A9D8C2E}" Description="Partner finder" ExtendedFind="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="list" Key="{85A6DABC-1625-42FE-9409-CF6F34BB2148}" Description="Partner finder" ExtendedFind="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="item1600608" Key="{533FBCA1-0723-4314-A318-3225F3AE5A5C}" Description="Partner finder" ExtendedFind="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Link" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="*1588584*" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -5551,6 +5723,9 @@
 						<Child Name="buttonSearch" Owner="{FFE0DB54-A76D-497D-9593-0D0C09C35415}" />
 					</Child>
 				</Child>
+				<Child Name="BrowserConfirm" Owner="{ABCA5252-DEFD-4042-B43E-753AD4FBEF3A}">
+					<Child Name="buttonCancel" Owner="{FC5C4537-7BD1-4D7C-9216-3706124D4A00}" />
+				</Child>
 			</Child>
 			<Child Name="Receiving" Owner="{6C9ECFAB-16FE-4F73-94CE-57788CF51B45}">
 				<Child Name="form" Owner="{F002AEF0-E18A-4EC1-AF68-C1160A6D25D5}">
@@ -5966,6 +6141,7 @@
 					<Child Name="textnode2" Owner="{5C489A68-D1B6-4588-897C-5FD211F5B4B4}" />
 					<Child Name="buttonAddNotes" Owner="{5231110E-2629-49DD-8D95-6B4972EB35B7}" />
 					<Child Name="buttonRelease" Owner="{C57D9369-D7AD-4CC4-85C4-8DCBB05187EC}" />
+					<Child Name="panel2" Owner="{9B83CDF5-1DFB-4160-8561-D4B8E566E41A}" />
 				</Child>
 				<Child Name="buttonAutoReceivePartnerPartFind" Owner="{523D7C6D-3C84-41D5-9EFA-FF9F63EC7EBE}" />
 				<Child Name="InventoryNotes" Owner="{3662D278-1824-468F-813F-FE5DD482C7B6}">

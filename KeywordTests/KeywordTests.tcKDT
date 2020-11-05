@@ -24,11 +24,14 @@
 				<child name="WarnHoldMechanicals" key="{CA7E98B1-BFA4-488E-9D20-28ECA74ECE66}" path="Receiving\Checkpoints\WarnHoldMechanicals.tcKDTest" />
 				<child name="ErrorSCACCode" key="{7C1F0F44-A785-43AF-8513-DB0B50048A53}" path="Receiving\Checkpoints\ErrorSCACCode.tcKDTest" />
 				<child name="CheckHoldCode" key="{FDB5C9B1-CBF6-4C65-933C-C43BE979344D}" path="Receiving\Checkpoints\CheckHoldCode.tcKDTest" />
+				<child name="WarnMSANumber" key="{63CE611A-B739-4D32-8BAD-47AFA0512CB6}" path="Receiving\Checkpoints\WarnMSANumber.tcKDTest" />
+			</folder>
+			<folder name="Components">
+				<child name="InventoryNote" key="{58664570-22CF-45B6-9394-4DE4AAB73650}" path="Receiving\InventoryNote.tcKDTest" />
+				<child name="HoldNote" key="{23F6220C-FF8B-4FE1-A70A-1696DC804F92}" path="Receiving\HoldNote.tcKDTest" />
+				<child name="Release" key="{789AB65A-60DC-4FBF-9951-C45DC0F53EA3}" path="Receiving\Release.tcKDTest" />
 			</folder>
 			<child name="Receive" key="{4BED85D7-D39B-488E-BBC6-AD1EC5D67B1E}" path="Receiving\Receive.tcKDTest" />
-			<child name="InventoryNote" key="{58664570-22CF-45B6-9394-4DE4AAB73650}" path="Receiving\InventoryNote.tcKDTest" />
-			<child name="HoldNote" key="{23F6220C-FF8B-4FE1-A70A-1696DC804F92}" path="Receiving\HoldNote.tcKDTest" />
-			<child name="Release" key="{789AB65A-60DC-4FBF-9951-C45DC0F53EA3}" path="Receiving\Release.tcKDTest" />
 		</folder>
 	</children>
 </Root>
