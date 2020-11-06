@@ -341,7 +341,73 @@
 						</Data>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="MULTIPLE PART" />
+						<Data Comment="Check for multiple parts in Partner Finder Auto Receive, and select the correct one" />
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="2">
+								<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.iGenesis.Receiving.PartnerPartFinder.PartnerPartFinderResults.resultList.index.list.links.ChildCount" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="partID" />
+										<Right DefVarType="0" VarType="257" ValueType="6" ValueValue="" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an error to the test log." MessageType="1">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Multiple parts available. Please specify which part number should be selection with the `partID` parameters" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Returns an object by the values of the specified properties." Action="FindChild">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="PropNames" DefVarType="12" VarType="8" ValueType="6" ValueValue="contentText" />
+												<Parameter Name="PropValues" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;*&quot;+KeywordTests.Receive.Parameters.partID+&quot;*&quot;" />
+												<Parameter Name="Depth" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+												<Parameter Name="RefreshTree" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+											</Parameters>
+											<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.iGenesis.Receiving.PartnerPartFinder.PartnerPartFinderResults.resultList.index.list.links;" />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="object">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+										<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Receive.Variables.object.Click()" />
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
@@ -2000,43 +2066,7 @@
 	</TestData>
 	<Variables Version="4" Key="{67BFA74D-3AB2-4929-B980-91D118E5A25A}">
 		<Items>
-			<Variable Name="Var1" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var2" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var3" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var4" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var5" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var6" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var7" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var8" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var9" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var10" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var11" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var12" Type="String" Local="False">
-				<DefValue />
-			</Variable>
-			<Variable Name="Var13" Type="String" Local="False">
+			<Variable Name="object" Type="Object" Local="False">
 				<DefValue />
 			</Variable>
 		</Items>
