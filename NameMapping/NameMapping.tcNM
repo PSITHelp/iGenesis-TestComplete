@@ -3923,6 +3923,18 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="textnode3" Key="{5AB41549-A9B9-4FC4-8882-FD51A88A8267}" ExtendedFind="True">
+												<Image FileName="1873722150" Left="963" Top="207" Right="1563" Bottom="338" />
+												<TypeInfo Item0="{777A8340-D9EC-4BFA-BA7D-076F213A5847}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="5700610072006E0069006E0067003A002000720065006300650069007000740073000A004D006100740065007200690061006C00200077006100730020006100750074006F0020007200650063006500690070007400650064002C0020006200750074002000770069006C006C002000720065007100750069007200650020006100200072006500630065006900700074002000610075006400690074002000620065006300610075007300650020006900740020007700610073002000610020006D00650072006700650064002000410053004E000A004F004B000A00D700" Type="7" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="buttonAutoReceivePartnerPartFind" Key="{523D7C6D-3C84-41D5-9EFA-FF9F63EC7EBE}" ExtendedFind="True">
@@ -6215,6 +6227,7 @@
 						</Child>
 					</Child>
 					<Child Name="link" Owner="{466BFBEE-CE04-4231-95BB-5AEFB8D3D69E}" />
+					<Child Name="textnode3" Owner="{5AB41549-A9B9-4FC4-8882-FD51A88A8267}" />
 				</Child>
 				<Child Name="buttonAutoReceivePartnerPartFind" Owner="{523D7C6D-3C84-41D5-9EFA-FF9F63EC7EBE}" />
 				<Child Name="InventoryNotes" Owner="{3662D278-1824-468F-813F-FE5DD482C7B6}">

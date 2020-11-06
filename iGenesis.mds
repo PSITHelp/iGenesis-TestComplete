@@ -1079,6 +1079,12 @@
 						<testParameters />
 						<children />
 					</testItem>
+					<testItem name="WarnSearch" key="{B47F5C3A-33DA-49E4-B691-1410D4217527}" group="False" enabled="True" testMoniker="KDT\{E6F11B23-14FD-47D8-B74A-AEE5FFB31C2B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="searchCondition" type="1" localVarName="" value="merged ASN" />
+						</testParameters>
+						<children />
+					</testItem>
 					<testItem name="cGenesisDeleteMasterCoil" key="{FA6AE17B-ADB7-4CF6-8E19-626F7EBC5019}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="psiInvID" type="1" localVarName="" value="209614800" />
