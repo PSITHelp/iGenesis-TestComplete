@@ -5602,6 +5602,56 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="dlgQuestion" Key="{BE570B47-115E-4456-AC5C-84F5C3B3FD87}">
+								<Image FileName="-1627774995" Left="0" Top="0" Right="390" Bottom="149" />
+								<TypeInfo Item0="{A14A52B8-8E49-40B6-A2EB-D166B053F29F}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Question" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNo" Key="{5CB2C248-C130-4DA6-B549-457E84455BCD}">
+										<Image FileName="-1627774995" Left="297" Top="114" Right="372" Bottom="137" />
+										<TypeInfo Item0="{E9ABDAEB-DF87-47B4-B231-F294D9895BCF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnYes" Key="{4E147C3F-553F-45B3-8D16-EEE1F25667FD}">
+										<Image FileName="-1627774995" Left="215" Top="114" Right="290" Bottom="137" />
+										<TypeInfo Item0="{E9ABDAEB-DF87-47B4-B231-F294D9895BCF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Static" Key="{1ADD2885-B901-4947-BAFE-B59A5F993489}">
+										<Image FileName="-1627774995" Left="65" Top="52" Right="359" Bottom="80" />
+										<TypeInfo Item0="{AD792E18-6D62-4EC9-9027-450ADA595087}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="ASN was merged and can be Unmerged. Do you want to unmerge the ASN?" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -5624,6 +5674,11 @@
 			</Child>
 			<Child Name="dlgInformation" Owner="{35AA42E5-0347-41D9-A582-8E505D14F5A3}">
 				<Child Name="btnOK" Owner="{E17C3814-3556-4C5F-89E9-109E538C3868}" />
+			</Child>
+			<Child Name="dlgQuestion" Owner="{BE570B47-115E-4456-AC5C-84F5C3B3FD87}">
+				<Child Name="btnNo" Owner="{5CB2C248-C130-4DA6-B549-457E84455BCD}" />
+				<Child Name="btnYes" Owner="{4E147C3F-553F-45B3-8D16-EEE1F25667FD}" />
+				<Child Name="Static" Owner="{1ADD2885-B901-4947-BAFE-B59A5F993489}" />
 			</Child>
 		</Child>
 		<Child Name="iGenesis" Owner="{0F119564-638A-44FF-9CB0-1C96C670CA64}">
