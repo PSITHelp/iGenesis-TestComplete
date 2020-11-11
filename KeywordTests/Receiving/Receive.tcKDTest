@@ -1777,277 +1777,610 @@
 					</Root>
 				</Data>
 				<Children>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rValue" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRValue;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rValueToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rValue" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRValue;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="nValue" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputNValue;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="nValueToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="nValue" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputNValue;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB1" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRockwellB1;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB1" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRockwellB1;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB2" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRockwellB2;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB2Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="rockwellB2" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputRockwellB2;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="olsenDepth" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputOlsenDepth;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="olsenDepthToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="olsenDepth" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputOlsenDepth;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="BHI" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBHI;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="BHIToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="BHI" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBHI;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldExact" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputYieldExact;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldExactToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldExact" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputYieldExact;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMin" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputUieldMin;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMintoggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMin" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputUieldMin;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMax" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputYeildMax;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMaxToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="yieldMax" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputYeildMax;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileExact" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileExact;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileExact" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileExact" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileExact;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMin" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileMin;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMinToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMin" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileMin;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMax" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileMax;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMaxToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="tensileMax" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTensileMax;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongExact" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongExact;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongExactToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongExact" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongExact;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMin" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongMin;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMinToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMin" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongMin;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMax" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongMax;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMaxToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMax" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputELongMax;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladExact" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladExact;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladExactToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladExact" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladExact;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladMin" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladMin;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="elongMinToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladMin" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladMin;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladMax" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladMax;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladMaxToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCladMax" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputTopCladMax;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladExact" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladExact;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladExactToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladExact" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladExact;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMin" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladMin;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMinToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMin" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladMin;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMax" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladMax;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMaxToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCladMax" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.inputBottomCladMax;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 						<Data Comment="Top Coat" />
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE1" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputE1;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE1Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputE1;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatC" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputC;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatCToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatC" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputC;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE2" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputE2;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE2Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatE2" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputE2;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ1" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputQ1;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ1Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputQ1;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ2" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputQ2;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ2Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatQ2" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputQ2;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatAvg" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputAvg;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatAvgToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="topCoatAvg" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.TopCoating.inputAvg;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 						<Data Comment="Bottom Coat" />
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE1" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputE1;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE1Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputE1;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatC" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputC;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatCToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatC" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputC;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE2" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputE2;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE2Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatE2" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputE2;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ1" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputQ1;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ1Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputQ1;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ2" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputQ2;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ2Toggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatQ2" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputQ2;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Enters text in the text box." Action="SetText">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatAVG" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputAvg;" />
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatAvgToggle" />
+								<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+							</Root>
 						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters text in the text box." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="bottomCoatAVG" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.iGenesis.Receiving.form.categories.MechanicalEntry.BottomCoating.inputAvg;" />
+								</Data>
+							</Operation>
+						</Children>
 					</Operation>
 				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Save" />
 			</Operation>
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -2233,38 +2566,71 @@
 		<Parameter144 Name="mechanicalEntry" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
 		<Parameter145 Name="note" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter146 Name="rValue" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter147 Name="nValue" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter148 Name="rockwellB1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter149 Name="rockwellB2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter150 Name="olsenDepth" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter151 Name="BHI" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter152 Name="yieldExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter153 Name="yieldMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter154 Name="yieldMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter155 Name="tensileExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter156 Name="tensileMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter157 Name="tensileMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter158 Name="elongExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter159 Name="elongMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter160 Name="elongMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter161 Name="topCladExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter162 Name="topCladMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter163 Name="topCladMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter164 Name="bottomCladExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter165 Name="bottomCladMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter166 Name="bottomCladMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter167 Name="topCoatE1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter168 Name="topCoatE2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter169 Name="topCoatC" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter170 Name="topCoatQ1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter171 Name="topCoatQ2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter172 Name="topCoatAvg" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter173 Name="bottomCoatE1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter174 Name="bottomCoatE2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter175 Name="bottomCoatC" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter176 Name="bottomCoatQ1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter177 Name="bottomCoatQ2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter178 Name="bottomCoatAVG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-		<Parameter179 Name="save" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="True" Description="" />
+		<Parameter147 Name="rValueToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter148 Name="nValue" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter149 Name="nValueToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter150 Name="rockwellB1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter151 Name="rockwellB1Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter152 Name="rockwellB2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter153 Name="rockwellB2Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter154 Name="olsenDepth" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter155 Name="olsenDepthToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter156 Name="BHI" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter157 Name="BHIToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter158 Name="yieldExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter159 Name="yieldExactToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter160 Name="yieldMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter161 Name="yieldMintoggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter162 Name="yieldMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter163 Name="yieldMaxToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter164 Name="tensileExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter165 Name="tensileExactToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter166 Name="tensileMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter167 Name="tensileMinToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter168 Name="tensileMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter169 Name="tensileMaxToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter170 Name="elongExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter171 Name="elongExactToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter172 Name="elongMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter173 Name="elongMinToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter174 Name="elongMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter175 Name="elongMaxToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter176 Name="topCladExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter177 Name="topCladExactToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter178 Name="topCladMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter179 Name="topCladMinToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter180 Name="topCladMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter181 Name="topCladMaxToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter182 Name="bottomCladExact" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter183 Name="bottomCladExactToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="True" Description="" />
+		<Parameter184 Name="bottomCladMin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter185 Name="bottomCladMinToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter186 Name="bottomCladMax" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter187 Name="bottomCladMaxToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter188 Name="topCoatE1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter189 Name="topCoatE1Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter190 Name="topCoatE2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter191 Name="topCoatE2Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter192 Name="topCoatC" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter193 Name="topCoatCToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter194 Name="topCoatQ1" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter195 Name="topCoatQ1Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter196 Name="topCoatQ2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter197 Name="topCoatQ2Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter198 Name="topCoatAvg" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter199 Name="topCoatAvgToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter200 Name="bottomCoatE1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter201 Name="bottomCoatE1Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter202 Name="bottomCoatE2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter203 Name="bottomCoatE2Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter204 Name="bottomCoatC" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter205 Name="bottomCoatCToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter206 Name="bottomCoatQ1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter207 Name="bottomCoatQ1Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter208 Name="bottomCoatQ2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter209 Name="bottomCoatQ2Toggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter210 Name="bottomCoatAVG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter211 Name="bottomCoatAvgToggle" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter212 Name="save" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="True" Description="" />
 	</Parameters>
 </Root>

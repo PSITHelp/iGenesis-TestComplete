@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="psi03279">
-				<Prp name="network mode answer" type="B" value="0"/>
+				<Prp name="network mode answer" type="B" value="-1"/>
 				<Prp name="network mode value" type="B" value="0"/>
 			</Node>
 		</Node>
