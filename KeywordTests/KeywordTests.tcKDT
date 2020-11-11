@@ -21,12 +21,11 @@
 		</folder>
 		<folder name="Receiving">
 			<folder name="Checkpoints">
-				<child name="WarnHoldMechanicals" key="{CA7E98B1-BFA4-488E-9D20-28ECA74ECE66}" path="Receiving\Checkpoints\WarnHoldMechanicals.tcKDTest" />
-				<child name="ErrorSCACCode" key="{7C1F0F44-A785-43AF-8513-DB0B50048A53}" path="Receiving\Checkpoints\ErrorSCACCode.tcKDTest" />
 				<child name="CheckHoldCode" key="{FDB5C9B1-CBF6-4C65-933C-C43BE979344D}" path="Receiving\Checkpoints\CheckHoldCode.tcKDTest" />
 				<child name="WarnMSANumber" key="{63CE611A-B739-4D32-8BAD-47AFA0512CB6}" path="Receiving\Checkpoints\WarnMSANumber.tcKDTest" />
 				<child name="SuccessSave" key="{8C144148-9A09-429C-8976-90D00E0967A2}" path="Receiving\Checkpoints\SuccessSave.tcKDTest" />
 				<child name="CheckWarnSearch" key="{E6F11B23-14FD-47D8-B74A-AEE5FFB31C2B}" path="Receiving\Checkpoints\CheckWarnSearch.tcKDTest" />
+				<child name="CheckNoAlerts" key="{720D704E-32CA-4949-88DA-277A1565191A}" path="Receiving\Checkpoints\CheckNoAlerts.tcKDTest" />
 			</folder>
 			<folder name="Components">
 				<child name="InventoryNote" key="{58664570-22CF-45B6-9394-4DE4AAB73650}" path="Receiving\InventoryNote.tcKDTest" />

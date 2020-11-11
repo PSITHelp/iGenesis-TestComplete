@@ -924,6 +924,18 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="label" Key="{F1935A5E-03CB-4F12-B0A4-FFFF88676AA2}" ExtendedFind="True">
+										<Image FileName="29628881" Left="464" Top="477" Right="1392" Bottom="575" />
+										<TypeInfo Item0="{46ABA7CA-A041-4331-BEC4-E10BBBCEB21F}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Label" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Welcome to iGenesis web app!" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="Receiving" Key="{6C9ECFAB-16FE-4F73-94CE-57788CF51B45}" Description="Receiving page. Contains elements in the Receiving Material page.">
@@ -5802,6 +5814,7 @@
 				<Child Name="BrowserConfirm" Owner="{ABCA5252-DEFD-4042-B43E-753AD4FBEF3A}">
 					<Child Name="buttonCancel" Owner="{FC5C4537-7BD1-4D7C-9216-3706124D4A00}" />
 				</Child>
+				<Child Name="label" Owner="{F1935A5E-03CB-4F12-B0A4-FFFF88676AA2}" />
 			</Child>
 			<Child Name="Receiving" Owner="{6C9ECFAB-16FE-4F73-94CE-57788CF51B45}">
 				<Child Name="form" Owner="{F002AEF0-E18A-4EC1-AF68-C1160A6D25D5}">

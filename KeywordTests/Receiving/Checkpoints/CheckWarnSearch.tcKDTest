@@ -10,32 +10,58 @@
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Returns an object by the values of the specified properties." Action="FindChild">
-					<CommonData Disabled="True" />
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="PropNames" DefVarType="12" VarType="8" ValueType="6" ValueValue="contentText" />
-						<Parameter Name="PropValues" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;*&quot;+KeywordTests.WarnSearch.Parameters.searchCondition+&quot;*&quot;" />
-						<Parameter Name="Depth" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="RefreshTree" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.iGenesis.Page.alerts;" />
-				</Data>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="If the alerts element exists, run a checkpoit to see if it contains the input parameter somewhere in the alerts or throw an error if not." />
 			</Operation>
-			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.iGenesis.Page.alerts" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="searchCondition" />
-						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
-					</Parameters>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.iGenesis.Page.alerts.Exists" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
 				</Data>
+				<Children>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.iGenesis.Page.alerts" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="searchCondition" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an error to the test log." MessageType="1">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Could not find any available alerts. See operation log details for more information." />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="9" ValueValue="5400680069007300200063006F0075006C006400200062006500200063006100750073006500640020006200790020006D0075006C007400690070006C006500200072006500610073006F006E0073002E000D000A000D000A002220200050006C006500610073006500200065006E00730075007200650020007400680065002000700061006700650020006900730020006C006F006100640069006E006700200063006F006D0070006C006500740065006C00790020006200650066006F007200650020007400680069007300200074006500730074002000720075006E0073002000620079002000610064006A0075007300740069006E00670020007400680065002000440065006C006100790020006F007000650072006100740069006F006E00200061007400200074006800650020007300740061007200740020006F0066002000740068006500200074006500730074002E000D000A000D000A002220200043006800650063006B0020007400680061007400200061006C006C0020006D0065006300610068006E006900630061006C002000700072006F00700065007200740069006500730020006100720065002000720065006D006F0076006500640020006200650066006F0072006500200073006100760069006E0067002000740068006500200070006100720074002E0020000D000A000D000A00222020005400680069007300200063006F0075006C006400200070006F00740065006E007400690061006C006C007900200062006500200061006E0020006900470065006E00650073006900730020006200750067002000770068006500720065002000740068006500200061006C006500720074007300200061007200650020006E006F007400200064006900730070006C006100790069006E00670020006F007200200070006100720074007300200061007200650020006E006F007400200067006F0069006E00670020006F006E00200068006F006C006400200066006F00720020006D0069007300730069006E00670020007400680065006900720020006D0065006300680061006E006900630061006C002000700072006F0070006500720074006900650073002E00200049007400200077006F0075006C00640020006200650020006200650073007400200074006F0020006D0061006E00750061006C006C007900200069006E0073007000650063007400200074006800690073002E00" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
 			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{7B9946F7-361A-4493-A4E8-6829E77F941B}">
-		<Parameter0 Name="searchCondition" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter0 Name="searchCondition" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Requires Mechanical Values." Description="" />
 	</Parameters>
 </Root>
