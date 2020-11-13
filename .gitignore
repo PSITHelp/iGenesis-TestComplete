@@ -14,3 +14,7 @@ Log/
 # Ignore image files
 *.png
 *.jpg
+
+# Ignore directories that are for local machines only
+Docs/
+archive/
