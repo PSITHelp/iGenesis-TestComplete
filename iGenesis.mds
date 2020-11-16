@@ -34,14 +34,6 @@
 			<testItem name="Receive &amp; Hold for Mechanicals" key="{3BB19905-27F9-41C3-807C-D187550C14F9}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="cGenesisDeleteMasterCoil" key="{79B3A776-830F-4821-BEE7-59FE0A53B846}" group="False" enabled="False" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters>
-							<param0 name="psiInvID" type="1" localVarName="" value="638601000" />
-							<param1 name="unmerge" type="2" localVarName="" value="False" />
-							<param2 name="plantName" type="1" localVarName="" value="" />
-						</testParameters>
-						<children />
-					</testItem>
 					<testItem name="ChangePlant" key="{A9004896-2945-4404-8892-8A47B71C5E20}" group="False" enabled="True" testMoniker="KDT\{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
@@ -272,17 +264,11 @@
 						</testParameters>
 						<children />
 					</testItem>
-					<testItem name="cChangePlant" key="{15AB7B7A-4B72-42A6-8674-A27A8F90759A}" group="False" enabled="True" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters>
-							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
-						</testParameters>
-						<children />
-					</testItem>
 					<testItem name="cGenesisDeleteMasterCoil" key="{5B0002CE-755C-40FB-8E39-C80B701BEA12}" group="False" enabled="True" testMoniker="KDT\{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="psiInvID" type="1" localVarName="" value="638601000" />
 							<param1 name="unmerge" type="2" localVarName="" value="False" />
-							<param2 name="plantName" type="1" localVarName="" value="" />
+							<param2 name="plantName" type="1" localVarName="" value="Tipp City" />
 						</testParameters>
 						<children />
 					</testItem>

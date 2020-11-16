@@ -5574,8 +5574,20 @@
 					<Child Name="cGenesis" Key="{1C352C21-EEA5-4FD3-8EBC-A086F65172B4}">
 						<Properties>
 							<Property Name="ProcessName">
-								<Value Value="prowc" />
+								<Value Value="prowin32" />
 							</Property>
+							<FilterCriteria>
+								<Root Group="OR">
+									<Item Operation="stdopequal">
+										<Left Value="DispValue:ProcessName" />
+										<Right Value="ConstStr:prowin32" />
+									</Item>
+									<Item Operation="stdopequal">
+										<Left Value="DispValue:ProcessName" />
+										<Right Value="ConstStr:prowc" />
+									</Item>
+								</Root>
+							</FilterCriteria>
 						</Properties>
 						<Children>
 							<Child Name="wndProMainWin" Key="{B307B7A4-53A7-483B-BF65-842349AF46A1}">
