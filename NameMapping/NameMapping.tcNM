@@ -28,6 +28,24 @@
 									<Property Name="URL">
 										<Value Value="http://testpkg:8880/igenesis/login" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8880/igenesis/login" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8870/igenesis/login" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="inputUser" Key="{CE0F03A5-7A01-4877-AC45-0A0F6D252674}" ExtendedFind="True">
@@ -68,6 +86,24 @@
 									<Property Name="URL">
 										<Value Value="http://testpkg:8880/igenesis*" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8880/igenesis*" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8870/igenesis*" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="buttonSelect" Key="{4B4E6EA0-058F-454B-AFAB-D7572842CA57}" ExtendedFind="True">
@@ -902,7 +938,6 @@
 										</Children>
 									</Child>
 									<Child Name="BrowserConfirm" Key="{ABCA5252-DEFD-4042-B43E-753AD4FBEF3A}">
-										<Image FileName="30866592" Left="680" Top="85" Right="1258" Bottom="441" />
 										<TypeInfo Item0="{7971B582-B944-4AE5-AB22-78ACF88B05A3}" />
 										<Properties>
 											<Property Name="ObjectType">
@@ -911,7 +946,6 @@
 										</Properties>
 										<Children>
 											<Child Name="buttonCancel" Key="{FC5C4537-7BD1-4D7C-9216-3706124D4A00}">
-												<Image FileName="30866592" Left="1144" Top="369" Right="1229" Bottom="409" />
 												<TypeInfo Item0="{E4EEF623-7035-42BB-BC07-F858C0C334D1}" />
 												<Properties>
 													<Property Name="ObjectType">
@@ -925,7 +959,6 @@
 										</Children>
 									</Child>
 									<Child Name="label" Key="{F1935A5E-03CB-4F12-B0A4-FFFF88676AA2}" ExtendedFind="True">
-										<Image FileName="29628881" Left="464" Top="477" Right="1392" Bottom="575" />
 										<TypeInfo Item0="{46ABA7CA-A041-4331-BEC4-E10BBBCEB21F}" />
 										<Properties>
 											<Property Name="ObjectType">
@@ -946,6 +979,24 @@
 									<Property Name="URL">
 										<Value Value="http://testpkg:8880/igenesis/receiving*" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8880/igenesis/receiving*" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8870/igenesis/receiving*" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="form" Key="{F002AEF0-E18A-4EC1-AF68-C1160A6D25D5}" Description="Weight in grams" ExtendedFind="True">
@@ -3862,7 +3913,6 @@
 												</Properties>
 											</Child>
 											<Child Name="panel2" Key="{B0A3E319-59B0-4122-8464-577E8518D251}" ExtendedFind="True">
-												<Image FileName="41026866" Left="210" Top="395" Right="1406" Bottom="770" />
 												<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
 												<Properties>
 													<Property Name="ObjectType">
@@ -3874,7 +3924,6 @@
 												</Properties>
 												<Children>
 													<Child Name="panel" Key="{13FB84B2-0D2A-4BE8-B26D-1403000BD481}">
-														<Image FileName="41026866" Left="226" Top="395" Right="905" Bottom="770" />
 														<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
 														<Properties>
 															<Property Name="ObjectType">
@@ -3886,7 +3935,6 @@
 														</Properties>
 														<Children>
 															<Child Name="panel" Key="{D6F792CE-6703-47E5-9F4C-3F5CCC6302D5}">
-																<Image FileName="41026866" Left="228" Top="396" Right="904" Bottom="769" />
 																<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
 																<Properties>
 																	<Property Name="ObjectType">
@@ -3895,7 +3943,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="panel" Key="{693DE5BE-E49A-42A6-9CD7-C69E97C423D0}">
-																		<Image FileName="41026866" Left="228" Top="396" Right="453" Bottom="769" />
 																		<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
 																		<Properties>
 																			<Property Name="ObjectType">
@@ -3904,7 +3951,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="panel" Key="{9B83CDF5-1DFB-4160-8561-D4B8E566E41A}">
-																				<Image FileName="41026866" Left="228" Top="396" Right="452" Bottom="769" />
 																				<TypeInfo Item0="{5E8145E8-433F-479E-9028-7640D9123754}" />
 																				<Properties>
 																					<Property Name="ObjectType">
@@ -3924,7 +3970,6 @@
 												</Children>
 											</Child>
 											<Child Name="link" Key="{466BFBEE-CE04-4231-95BB-5AEFB8D3D69E}" ExtendedFind="True">
-												<Image FileName="352427513" Left="228" Top="572" Right="452" Bottom="769" />
 												<TypeInfo Item0="{237415A0-79B7-4577-AE68-7BADD3BD9974}" />
 												<Properties>
 													<Property Name="ObjectType">
@@ -3936,7 +3981,6 @@
 												</Properties>
 											</Child>
 											<Child Name="textnode3" Key="{5AB41549-A9B9-4FC4-8882-FD51A88A8267}" ExtendedFind="True">
-												<Image FileName="1873722150" Left="963" Top="207" Right="1563" Bottom="338" />
 												<TypeInfo Item0="{777A8340-D9EC-4BFA-BA7D-076F213A5847}" />
 												<Properties>
 													<Property Name="ObjectType">
@@ -4243,6 +4287,24 @@
 									<Property Name="URL">
 										<Value Value="http://testpkg:8880/igenesis/maintenance*" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8880/igenesis/maintenance*" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8870/igenesis/maintenance*" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 							</Child>
 							<Child Name="MaintParts" Key="{78D7533A-0FA7-4D70-944C-749E456DE8DD}" Description="Generic Page. Child elements applicable to all pages.">
@@ -4253,6 +4315,24 @@
 									<Property Name="URL">
 										<Value Value="http://testpkg:8880/igenesis/maintenance/parts" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8880/igenesis/maintenance/parts" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://testpkg:8870/igenesis/maintenance/parts" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="Content" Key="{C432857B-F5E9-438E-BEA8-78C3C8AE268C}" ExtendedFind="True">
@@ -5627,7 +5707,6 @@
 								</Children>
 							</Child>
 							<Child Name="dlgQuestion" Key="{BE570B47-115E-4456-AC5C-84F5C3B3FD87}">
-								<Image FileName="-1627774995" Left="0" Top="0" Right="390" Bottom="149" />
 								<TypeInfo Item0="{A14A52B8-8E49-40B6-A2EB-D166B053F29F}" />
 								<Properties>
 									<Property Name="WndClass">
@@ -5639,7 +5718,6 @@
 								</Properties>
 								<Children>
 									<Child Name="btnNo" Key="{5CB2C248-C130-4DA6-B549-457E84455BCD}">
-										<Image FileName="-1627774995" Left="297" Top="114" Right="372" Bottom="137" />
 										<TypeInfo Item0="{E9ABDAEB-DF87-47B4-B231-F294D9895BCF}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -5651,7 +5729,6 @@
 										</Properties>
 									</Child>
 									<Child Name="btnYes" Key="{4E147C3F-553F-45B3-8D16-EEE1F25667FD}">
-										<Image FileName="-1627774995" Left="215" Top="114" Right="290" Bottom="137" />
 										<TypeInfo Item0="{E9ABDAEB-DF87-47B4-B231-F294D9895BCF}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -5663,7 +5740,6 @@
 										</Properties>
 									</Child>
 									<Child Name="Static" Key="{1ADD2885-B901-4947-BAFE-B59A5F993489}">
-										<Image FileName="-1627774995" Left="65" Top="52" Right="359" Bottom="80" />
 										<TypeInfo Item0="{AD792E18-6D62-4EC9-9027-450ADA595087}" />
 										<Properties>
 											<Property Name="WndClass">

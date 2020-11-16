@@ -19,6 +19,29 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Check to see if plant parameter is changed from default. If not, then don&apos;t change the plant. " />
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="1">
+						<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="plantName" />
+						<Right DefVarType="0" VarType="257" ValueType="6" ValueValue="" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="cChangePlant">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="plantName" DefVarType="8" DefValueType="6" DefValueValue="Tipp City" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="plantName" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to delete master coil menu and enter the PSI Inv ID" />
+			</Operation>
 			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
 				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="0" PreferredMenu="MainMenu">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -52,6 +75,9 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.cGenesis.wndProFrame.OK;" />
 				</Data>
 			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Delay for half a second to ensure the menu loads" />
+			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -59,6 +85,9 @@
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Check to see if the option to unmerge ASN is available" />
 			</Operation>
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -68,6 +97,9 @@
 					</Root>
 				</Data>
 				<Children>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="If unmerge parameter is set to true then unmerge" />
+					</Operation>
 					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 							<Root Type="1" Operator="0">
@@ -83,6 +115,9 @@
 							</Operation>
 						</Children>
 					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="If unmerge parameter is set to false then don&apos;t unmerge" />
+					</Operation>
 					<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
 						<Data />
 						<Children>
@@ -94,6 +129,9 @@
 						</Children>
 					</Operation>
 				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Click the OK button on the delete confirmation menu and close out of the Dlete Master Coil menu" />
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
@@ -122,5 +160,6 @@
 	<Parameters Key="{4C41ADBC-AAE7-42AE-9F18-914EBD0B7A12}">
 		<Parameter0 Name="psiInvID" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter1 Name="unmerge" VarType="11" IsOptional="False" DefValueType="7" DefValueValue="False" Description="" />
+		<Parameter2 Name="plantName" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="Kenton" Description="" />
 	</Parameters>
 </Root>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44141.7283912037" objectName="Aliases.cGenesis.wndProFrame.OK" objectLeft="148" objectTop="121" objectRight="223" objectBottom="145" clickPointX="186" clickPointY="135" imageFileName="tcvi691817062953360.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44141.7284027778" objectName="Aliases.cGenesis.dlgQuestion.btnNo" objectLeft="297" objectTop="114" objectRight="372" objectBottom="137" clickPointX="314" clickPointY="125" imageFileName="tcvi691819187953361.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="44141.7284259259" objectName="Aliases.cGenesis.dlgInformation.btnOK" objectLeft="260" objectTop="120" objectRight="335" objectBottom="143" clickPointX="295" clickPointY="126" imageFileName="tcvi691820171953362.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="44141.7284490741" objectName="Aliases.cGenesis.wndProFrame.Close" objectLeft="228" objectTop="121" objectRight="303" objectBottom="145" clickPointX="247" clickPointY="131" imageFileName="tcvi691822937953363.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

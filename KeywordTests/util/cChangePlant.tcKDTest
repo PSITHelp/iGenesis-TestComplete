@@ -21,6 +21,30 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.cGenesis.wndProMainWin;" />
 				</Data>
 			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Check if running in test enviornment" />
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="testEnviornment" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Item" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Test &quot; +KeywordTests.cChangePlant.Parameters.plantName" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.cGenesis.wndProFrame.ComboBox;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">

@@ -13,7 +13,7 @@
 		</folder>
 		<folder name="cGenesis">
 			<folder name="Inventory">
-				<child name="cGenesisDeleteMasterCoil" key="{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" path="cGenesis\cGenesisDeleteMasterCoil.tcKDTest" />
+				<child name="cDeleteMasterCoil" key="{956A4876-9C32-4B66-BD91-A9DB3C08B7CC}" path="cGenesis\cDeleteMasterCoil.tcKDTest" />
 			</folder>
 			<folder name="Util">
 				<child name="cChangePlant" key="{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" path="util\cChangePlant.tcKDTest" />

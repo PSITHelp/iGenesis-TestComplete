@@ -288,7 +288,7 @@
 								<Data Description="Posts an error to the test log." MessageType="1">
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Entered coil not available for receiving." />
-										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Please check to make sure coil is available to be received. It may need to be deleted first." />
 										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 											<Values IsEnum="True">
 												<Value Type="1" Value="100" Text="pmLowest" />
