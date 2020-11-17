@@ -8,21 +8,21 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{92B1D8EE-C93A-4744-BD02-8F04C95CA22F}" version="14">
 		<children>
-			<testItem name="Util - Start iGenesis &amp; Login" key="{7B99E7AB-E353-4996-B87D-F2A049435D6C}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Util - Start iGenesis &amp; Login" key="{7B99E7AB-E353-4996-B87D-F2A049435D6C}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="StartGenesis" key="{2E154DB1-943D-4163-B5AD-9A76CF3F9E29}" group="False" enabled="True" testMoniker="KDT\{50AEAFF1-8894-4A63-B82E-7DC64104AAC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="LoginTestAccount" key="{66296EBF-D81B-4585-ACE6-9AF69732C0F9}" group="False" enabled="True" testMoniker="KDT\{7CC327D2-621F-4803-8EFA-9C26099BC161}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="LoginTestAccount" key="{66296EBF-D81B-4585-ACE6-9AF69732C0F9}" group="False" enabled="False" testMoniker="KDT\{7CC327D2-621F-4803-8EFA-9C26099BC161}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="userID" type="1" localVarName="" value="ata" />
 							<param1 name="password" type="1" localVarName="" value="testPASS123!@#" />
 						</testParameters>
 						<children />
 					</testItem>
-					<testItem name="LoginPreProdAccount" key="{F957A146-5210-4451-8CAF-3687128C9F5A}" group="False" enabled="False" testMoniker="KDT\{7CC327D2-621F-4803-8EFA-9C26099BC161}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="LoginPreProdAccount" key="{F957A146-5210-4451-8CAF-3687128C9F5A}" group="False" enabled="True" testMoniker="KDT\{7CC327D2-621F-4803-8EFA-9C26099BC161}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="userID" type="1" localVarName="" value="ata" />
 							<param1 name="password" type="1" localVarName="" value="SmartB12345" />
@@ -274,7 +274,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Receive &amp; Hold for Mechanicals &amp; Release" key="{610F5090-C724-463C-982C-BCED5B07184B}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Receive &amp; Hold for Mechanicals &amp; Release" key="{610F5090-C724-463C-982C-BCED5B07184B}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="ChangePlant" key="{55F96BB3-F77F-4BB3-9291-486B57D709DE}" group="False" enabled="True" testMoniker="KDT\{8C23179B-2BD3-4135-B0A1-1D23F86FD12D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -513,7 +513,7 @@
 						</testParameters>
 						<children />
 					</testItem>
-					<testItem name="cChangePlant" key="{4B11EC7D-015B-46F1-973E-82C05FB95244}" group="False" enabled="False" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="cChangePlant" key="{4B11EC7D-015B-46F1-973E-82C05FB95244}" group="False" enabled="True" testMoniker="KDT\{B470FBD7-B15C-403E-8D4F-9205EEC21F95}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="plantName" type="1" localVarName="" value="Tipp City" />
 						</testParameters>

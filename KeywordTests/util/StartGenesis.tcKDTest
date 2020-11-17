@@ -26,10 +26,10 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="Run test if not preprod" />
-					</Operation>
 				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Run test if not preprod" />
 			</Operation>
 			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
 				<Data />
@@ -39,6 +39,52 @@
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="http://testpkg:8870/igenesis/" />
 								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.iGenesis.Page.Exists" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.iGenesis.Page" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Exists" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an error to the test log." MessageType="1">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="iGenesis instance not detected. Verify iGenesis is open." />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="9" ValueValue="540068006900730020006D0061007900200068006100760065002000680061007000700065006E00650064002000690066003A000D000A000D000A0020002000200020002D00200054006800650072006500200061007200650020006D0075006C007400690070006C0065002000620072006F007700730065007200200069006E007300740061006E006300650073002000720075006E006E0069006E006700200069006E00200074006800650020006200610063006B00670072006F0075006E0064000D000A002000200020000D000A0020002000200020002D00200054006800650020006900470065006E0065007300690073002000700061006700650020006900730020006E006F0074002000610062006C006500200074006F0020006C006F0061006400200066006F007200200073006F006D006500200072006500610073006F006E000D000A000D000A0020002000200020002D0020005400680065002000550052004C00200074006F0020006C006F006100640020006900470065006E006500730069007300200064006F006500730020006E006F00740020006D00610074006300680020007700680061007400200069007300200069006E00200074006800650020004E0061006D0065004D0061007000700069006E0067000D000A000D000A0020002000200020002D0020005000610067006500200074006F006F006B0020006C006F006E00670065007200200074006F0020006C006F006100640020007400680061006E002000740068006500200074006500730074002000770061007300200065007800700065006300740069006E0067002C002000770068006900630068002000630061006E00200062006500200066006900780065006400200062007900200061006400640069006E006700200061002000640065006C00610079002E00" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 						</Data>
 					</Operation>
